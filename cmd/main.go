@@ -5,13 +5,10 @@ import (
     "fmt"
     "log"
     "os"
-
     "github.com/spf13/viper"
-
-    cmd "/cmd/main"
-    pkg "pkg/jsonyamlproc"
-    ssh "pkg/ssh"
-    utils "pkg/utils"
+    "github.com/piligrimm-l/PackageManager/internal/jsonproc"
+    "github.com/piligrimm-l/PackageManager/internal/ssh"
+    "github.com/piligrimm-l/PackageManager/internal/utils"
 )
 
 var configPath string
